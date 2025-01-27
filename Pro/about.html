@@ -4,7 +4,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>درباره من</title>
-  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    /* تنظیمات عمومی */
+    body {
+      font-family: 'Tahoma', sans-serif;
+      direction: rtl;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #282829;
+    }
+
+    /* استایل نوار ناوبری */
+    nav {
+      background: linear-gradient(90deg, #4CAF50, #81C784);
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    nav ul li a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      transform: scale(1.1);
+    }
+
+    /* استایل بخش درباره من */
+    .about {
+      margin-top: 50px;
+      padding: 20px;
+    }
+
+    .about h1 {
+      font-size: 36px;
+      color: #2E7D32;
+      font-weight: bold;
+    }
+
+    .about p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+
+    /* تغییر رنگ تیترهای h2 به آبی فیروزه‌ای */
+    .about h2 {
+      color: #00BCD4; /* آبی فیروزه‌ای */
+      margin-top: 20px;
+    }
+
+    /* استایل لیست‌ها */
+    .about ul {
+      list-style-position: inside;
+      padding-right: 0;
+      margin: 10px auto;
+      display: inline-block;
+      text-align: right;
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* استایل تصویر */
+    .about-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 4px solid #2E7D32;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* استایل فوتر */
+    footer {
+      background: #333;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,12 +122,13 @@
 
   <section class="about">
     <h1>درباره من</h1>
-    <p>من یه دانشجوی علاقه مند به امنیت شبکه هستم و در حال تلاش برای یادگیری فیلد های دیگه هم هستم </p>
+    <p>من یه دانشجوی علاقه‌مند به امنیت شبکه هستم و در حال تلاش برای یادگیری فیلدهای دیگر نیز می‌باشم.</p>
+    
     <h2>مهارت‌ها</h2>
     <ul>
       <li>HTML & CSS</li>
       <li>Git</li>
-      <li>network security</li>
+      <li>Network Security</li>
       <li>Python</li>
     </ul>
 
@@ -32,17 +136,17 @@
     <ul>
       <li>توسعه وب</li>
       <li>هوش مصنوعی</li>
-      <li>شبکه </li>
+      <li>شبکه</li>
       <li>آموزش و یادگیری</li>
     </ul>
 
     <h2>تحصیلات</h2>
-    <p> دانشجوی کارشناسی رشته مهندسی کامپیوتر دانشگاه گیلان</p>
+    <p>دانشجوی کارشناسی رشته مهندسی کامپیوتر دانشگاه گیلان</p>
 
     <h2>اهداف آینده</h2>
-    <p>پیشرفت در حوزه امنیت شبکه و هوش مصنوعی و ترکیب آن با طراحی وب برای ایجاد تجربه‌های کاربری بهتر</p>
+    <p>پیشرفت در حوزه امنیت شبکه و هوش مصنوعی و ترکیب آن با طراحی وب برای ایجاد تجربه‌های کاربری بهتر.</p>
 
-    <img src="C:\Users\AmirH\OneDrive\Desktop\pro\Pro\image\ai.jpg" alt="تصویر مرتبط با من" class="about-image">
+    <img src="image/ai.jpg" alt="تصویر مرتبط با من" class="about-image">
   </section>
 
   <footer>
@@ -51,4 +155,3 @@
 
 </body>
 </html>
-
